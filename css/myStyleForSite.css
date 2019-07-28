@@ -1,0 +1,70 @@
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("/img/fog-foggy-forest-4827.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, -0.3) 75%, #161616 103%), url("/img/fog-foggy-forest-4827.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.about-section {
+    padding-top: 10rem;
+    background: -webkit-gradient(linear,left top,left bottom,from(#161616),color-stop(75%,rgba(22,22,22,.9)),to(rgba(22,22,22,.8))), url("/img/output-onlinepngtools.png");
+    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%),url("/img/output-onlinepngtools.png");
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+.signup-section {
+    padding: 10rem 0;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url("/img/firs-fog-foggy-5049.jpg");
+    background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url("/img/firs-fog-foggy-5049.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.text-ruck {
+    color: rgba(255,255,255,1.15)!important;
+}
+
+
+.jWLIScroll{
+  overflow-y: scroll;
+  overflow: auto;
+  height: 300px;
+  width: 100%;
+  border:1px solid #e7e8e1;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e7e8e1;
+}
+.about-section p {
+    margin-bottom: 7rem;
+}
+
+.projects-section {
+    padding: 5rem 0;
+}
+
+#mainNav .navbar-brand {
+    color: black;
+    font-weight: 200;
+    padding: .9rem 0;
+}
+.col-lg-7 a{
+  font-size: .75rem;
+}
+ .col-lg-6 img {
+    vertical-align: middle;
+    border-style: none;
+    height: 300px;
+    width: 100%;
+    /* margin: 0 0 0 0; */
+}

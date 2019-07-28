@@ -1,0 +1,739 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(241,243,245);
+}
+
+/* Banner Section/Nav*/
+.banner{
+  background-image: url(#);
+  overflow: auto;
+}
+header{
+  height: 70px;
+  width:100%;
+  padding-bottom: 30px;
+  margin: 0px 0px 0px 0;
+  background-color: white;
+  color: black;
+  float:left;
+}
+nav ul li{
+  text-decoration: none;
+  list-style: none;
+  width: 7%;
+  height: 20px;
+  color: black;
+  margin: 7px 0px 0 65px;
+  display: inline;
+  float: left;
+}
+nav ul{
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 0px 65px;
+}
+.button{
+  height: 6%;
+  width: 78px;
+  color: black;
+  margin: 5px 0px 0px 65px;
+  float: left;
+  padding: 0 0 0 13px;
+  border-radius: 3%;
+  border: 2px solid black;
+  background-color: darkgrey;
+}
+.description .shadowLady{
+  height: 328px;
+  width: 29%;
+  float: right;
+  margin-right: 40px;
+  margin-top: 52px;
+  padding: 0 0 0 0;
+}
+
+/* END Banner Section */
+
+
+/* description*/
+.description{
+  height: 380px;
+  width:100%;
+  padding-bottom: 30px;
+  margin: 0px 0px 0px 0;
+  background-color:rgb(241,243,245);
+  color: black;
+  float:left;
+}
+.description img{
+  height: 130px;
+  width: 35%;
+  padding: 0 0 0 0;
+  margin: 45px 0px 0px 102px;
+  float: left;
+}
+.sec{
+  height: 101px;
+  width: 52%;
+  padding: 0 0 0 0;
+  margin: 0px 0px 0px 25px;
+  float: left;
+}
+.description p{
+  height: 50px;
+  width: 100%;
+  padding: 0 0 0 0;
+  margin: 0px 0px 5px 0px;
+  float: left;
+}
+.description form{
+  height: 52px;
+  width: 53%;
+  padding: 0 0 0 0;
+  margin: 13px 0px 0px 27px;
+  float: left;
+}
+.description form input{
+  width: 64%;
+  height: 30px;
+  margin: 0 31px 0 0;
+  padding: 0 0 0 0;
+  border: 4px solid grey;
+  border-radius: 8%;
+}
+.description form span{
+  margin: 0 0 0 0;
+  padding: 3px 17px 1px 14px;
+  background-color: grey;
+}
+/* End description */
+.tar{
+  background-color:white;
+  height:400px;
+  width:100%;
+  background-color: white;
+  float:left;
+}
+.middle{
+  height: 50px;
+  width: 100%;
+  padding: 0 65px 0 58px;
+  margin: 0px 0px 172px 0px;
+  float: left;
+  font-size: 3em;
+  text-align: center;
+}
+.right{
+  height: 50px;
+  width: 41%;
+  padding: 0 0 0 0;
+  margin: 0px 39px 5px 0px;
+  border-top: 3px solid deeppink;
+  float: right;
+  font-size: 2rem;
+}
+.left{
+  height: 50px;
+  width: 40%;
+  padding: 0 0 0 0;
+  margin: 0px 20px 5px 35px;
+  float: left;
+  font-size: 2rem;
+  border-top: 3px solid deeppink;
+}
+/* Actual Description */
+
+/* End actual Description*/
+
+
+/* History */
+.history{
+
+  height: 650px;
+  width:60%;
+  padding-bottom: 30px;
+  margin: 0px 0px 0px 0;
+  background-color:rgb(241,243,245);
+  color: black;
+  float:left;
+}
+.histImg{
+
+  float: left;
+  height: 650px;
+  width: 40%;
+  margin: 0px 0 0 0;
+  padding: 0 0 0 0px;
+}
+.histImg img{
+  float: left;
+  height: 317px;
+  width: 70%;
+  margin: 78px 0 0 35px;
+  padding: 0 0 0 10px;
+}
+.history h2 {
+  font-size: 40px;
+  margin-left: 20px;
+}
+.history p{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 26px;
+  line-height: 32px;
+}
+/* END history */
+
+
+
+
+/*Founder */
+.founder{
+  overflow:auto;
+  width: 100%;
+  float: left;
+  background-color: white;
+  margin: 206px 0 0 0;
+  height: 700px;
+}
+.founder h2{
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  float: left;
+  margin: 15px 0 6px 0px;
+  width: 100%;
+}
+.theFounder{
+  border: 1px solid grey;
+  width: 85%;
+  overflow: auto;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 93px;
+  float: left;
+}
+.founderp{
+  line-height: 1.5em;
+  font-size: 1em;
+  width: 60%;
+  float: left;
+  margin: 15px 0 0 20px;
+}
+.shmcls{
+  float: left;
+  height: 18em;
+  margin: 6px 0 0 17px;
+}
+.founder span{
+  margin: 8px 0 0px 20px;
+  padding: 0 0 0 0;
+  float: left;
+  width: 60%;
+  font-weight: bold;
+}
+/*End Fouder*/
+
+/* Family */
+.fFamf{
+
+  float: left;
+  overflow: auto;
+  width: 50%;
+  background-color: white;
+  margin: 0px 0 0 0px;
+}
+
+.simmons{
+
+  float: left;
+  overflow: auto;
+  width: 50%;
+  background-color: white;
+  margin: 0px 0 0 0px;
+}
+.fFamf h4{
+  font-size: 2em;
+  width: 53%;
+  margin: 37px 0 36px 90px;
+  padding: 0 0 0 0;
+  font-weight: lighter;
+  color: grey;
+}
+
+.fFamfp{
+  font-size: 1em;
+  width: 80%;
+  margin: 0 0 0 90px;
+  line-height: 1.5em;
+  padding: 0 0 0 0;
+}
+
+.simmonsp{
+  font-size: 1em;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  line-height: 1.5em;
+}
+
+.simimg{
+  height: 110px;
+  width: 37%;
+  margin: 0 0 0 0px;
+}
+/*End Family */
+
+/*Footer */
+footer{
+  background-color: #424f63;
+  width: 100%;
+  height: 300px;
+  float: left;
+  color: white;
+}
+.signup{
+  background-color: #c5cfdb;
+  width: 100%;
+  height: 60px;
+  color: white;
+  margin: 0 0 0 0;
+  padding: 15px 0 0 25px;
+}
+.signup h5{
+  width: 35%;
+  font-size: 20px;
+  margin: 0 37px 0 45px;
+  padding: 0 0 0 0;
+  float: left;
+}
+.signup input{
+  height: 32px;
+  width: 37%;
+  border: 2px solid grey;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.signup span{
+  border: 3px solid grey;
+  border-radius: 10%;
+  background-color: grey;
+  padding: 2px 0 0 25px;
+  margin: 0 0 0px 3px;
+  height: 33px;
+  width: 11%;
+  float: left;
+  font-size: 18px;
+}
+.home{
+  float: left;
+  border-bottom: 2px solid grey;
+  width: 95%;
+  height: 45px;
+  text-align: center;
+  margin: 10px 0 0 25px;
+}
+.home ul {
+  width: 50%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  float: right;
+  /* display: inline; */
+}
+.home ul li{
+  display: inline;
+  margin: 0 0 0 55px;
+}
+.program{
+  float: left;
+  width: 100%;
+  height: 115px;
+}
+.program ul{
+  float: left;
+  margin: 20px 0 0 46px;
+  list-style: none;
+}
+.that li{
+  display: inline;
+  float: left;
+  margin: 0 0 0 70px;
+}
+.that{
+  margin: 0 0 0 0;
+  float: left;
+}
+
+/*End Footer */
+
+
+/*Cell phone to tablet*/
+
+@media only screen and (max-width: 375px){
+  nav ul {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 0 0px 65px;
+    display: none;
+}
+.description {
+    height: 300px;
+    width: 100%;
+    padding-bottom: 30px;
+    margin: 0px 0px 0px 0;
+    background-color: rgb(241,243,245);
+    color: black;
+    float: left;
+}
+.description .shadowLady {
+    /* height: 328px; */
+    width: 0;
+    float: right;
+    margin-right: 40px;
+    margin-top: 52px;
+    display: none;
+    padding: 0 0 0 0;
+}
+.description img {
+    height: 130px;
+    width: 100%;
+    max-width: 80%;
+    padding: 20px 0 0 50px;
+    margin: 0 0 0 0px;
+}
+.sec {
+    height: 100px;
+    width: 100%;
+    padding: 10px 0 0 0;
+    margin: 0px 0px 0px 25px;
+    /* float: left; */
+}
+.description form input {
+    width: 64%;
+    height: 29px;
+    margin: 0 0px 0 0;
+    padding: 0 0 0 0;
+    border: 4px solid grey;
+    border-radius: 8%;
+}
+.description form {
+    height: 52px;
+    width: 100%;
+    max-width: 91%;
+    padding: 0 0 0 0;
+    margin: 12px 0px 0px 27px;
+    float: left;
+}
+.middle {
+    height: 50px;
+    width: 100%;
+    padding: 0 65px 0 58px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+    font-size: 1.5em;
+    text-align: center;
+}
+.left {
+    height: 50px;
+    width: 38%;
+    padding: 0 0 0 0;
+    margin: 130px 0px 5px 35px;
+    float: left;
+    font-size: 1rem;
+    border-top: 3px solid deeppink;
+}
+.right {
+    height: 50px;
+    width: 41%;
+    padding: 0 0 0 0;
+    margin: 130px 16px 5px 0px;
+    border-top: 3px solid deeppink;
+    float: right;
+    font-size: 1rem;
+}
+.histImg {
+    float: left;
+    height: 0;
+    width: 0;
+    margin: 0px 0 0 0;
+    padding: 0 0 0 0px;
+}
+
+.histImg img {
+    float: left;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0 0 0 0px;
+    display: none;
+}
+.history p {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 26px;
+    line-height: 32px;
+    width: 145%;
+    /* height: 26px; */
+}
+.theFounder {
+    border: 1px solid grey;
+    width: 100%;
+    overflow: auto;
+    float: left;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0px;
+    float: left;
+}
+.shmcls {
+    float: left;
+    height: 18em;
+    margin: 0 0 0 60px;
+    border: 14px solid grey;
+}
+
+.founderp {
+    line-height: 1.5em;
+    font-size: 1em;
+    width: 90%;
+    float: left;
+    margin: 15px 0 0 20px;
+}
+.fFamfp {
+    font-size: 1em;
+    width: 95%;
+    margin: 0 0 0 10px;
+    line-height: 1.5em;
+    /* float: left; */
+    padding: 0 0 0 0;
+}
+.simmons {
+    float: left;
+    overflow: auto;
+    width: 95%;
+    background-color: white;
+    margin: 0px 0 0 10px;
+}
+.simimg {
+    height: 110px;
+    width: 37%;
+    margin: 0 0 0 95px;
+}
+.fFamf h4 {
+    font-size: 2em;
+    width: 53%;
+    margin: 37px 0 36px 95px;
+    padding: 0 0 0 0;
+    font-weight: lighter;
+    color: grey;
+    /* align-items: center; */
+}
+.fFamf {
+    float: left;
+    overflow: auto;
+    width: 100%;
+    background-color: white;
+    margin: 0px 0 0 0px;
+}
+
+}
+
+@media (min-width: 376px) and (max-width:768px){
+  nav ul {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 0 0;
+    padding: 20px 0 0px 0px;
+}
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    width: 7%;
+    height: 20px;
+    color: black;
+    margin: 7px 0px 0 59px;
+    display: inline;
+    float: left;
+}
+.description img {
+    height: 130px;
+    width: 45%;
+    padding: 0 0 0 0;
+    margin: 45px 0px 0px 23px;
+    float: left;
+}
+.description .shadowLady {
+    height: 328px;
+    width: 35%;
+    float: right;
+    margin-right: 33px;
+    margin-top: 52px;
+    padding: 0 0 0 0;
+}
+.description form input {
+    width: 64%;
+    height: 28px;
+    margin: 0 0px 0 0;
+    padding: 0 0 0 0;
+    border: 4px solid grey;
+    border-radius: 8%;
+}
+.right {
+    height: 50px;
+    width: 40%;
+    padding: 0 0 0 0;
+    margin: 0px 35px 5px 0px;
+    border-top: 3px solid deeppink;
+    float: right;
+    font-size: 2rem;
+    text-align: center;
+}
+.left {
+  height: 50px;
+  width: 40%;
+  text-align: center;
+  padding: 0 0 0 0;
+  margin: 0px 20px 5px 60px;
+  float: left;
+  font-size: 2rem;
+  border-top: 3px solid deeppink;
+}
+.histImg {
+    float: left;
+    height: 650px;
+    width: 40%;
+    margin: 0px 0 0 0;
+    padding: 0 0 0 0px;
+    display: none;
+}
+.history {
+    height: 650px;
+    width: 95%;
+    padding-bottom: 30px;
+    margin: 0px 0px 0px 0;
+    background-color: rgb(241,243,245);
+    color: black;
+    float: left;
+}
+.shmcls {
+    float: left;
+    height: 18em;
+    margin: 6px 0 0 195px;
+    border: 10px solid grey;
+}
+.founderp {
+    line-height: 1.5em;
+    font-size: 1em;
+    width: 95%;
+    float: left;
+    margin: 15px 0 0 20px;
+}
+.theFounder {
+    border: 1px solid grey;
+    width: 85%;
+    overflow: auto;
+    float: left;
+    padding: 0 0 0 0;
+    margin: 0 0 0 60px;
+    float: left;
+}
+.simmons {
+    float: left;
+    overflow: auto;
+    width: 90%;
+    background-color: white;
+    margin: 0px 0 0 40px;
+}
+.simimg {
+    height: 110px;
+    width: 37%;
+    margin: 0 0 0 195px;
+}
+.fFamf {
+    float: left;
+    overflow: auto;
+    width: 100%;
+    background-color: white;
+    margin: 0px 0 0 0px;
+}
+.fFamfp {
+    font-size: 1em;
+    width: 90%;
+    margin: 0 0 0 35px;
+    line-height: 1.5em;
+    padding: 0 0 0 0;
+}
+.fFamf h4 {
+    font-size: 2em;
+    width: 53%;
+    margin: 40px 0 36px 177px;
+    padding: 0 0 0 45px;
+    font-weight: lighter;
+    color: grey;
+}
+.signup span {
+    border: 3px solid grey;
+    border-radius: 10%;
+    background-color: grey;
+    padding: 1px 0 0px 5px;
+    margin: 0 0 0px 3px;
+    height: 20px;
+    width: 15%;
+    float: left;
+    font-size: .75em;
+}
+.signup input {
+    height: 20px;
+    width: 70%;
+    border: 2px solid grey;
+    float: left;
+    margin: 0 0 0 15px;
+    padding: 0 0 0 0;
+}
+.signup h5 {
+    width: 100%;
+    font-size: 1em;
+    margin: 0 37px 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+    float: left;
+}
+.signup {
+    background-color: #c5cfdb;
+    width: 100%;
+    height: 60px;
+    color: white;
+    margin: 0 0 0 0;
+    padding: 9px 0 0 0;
+}
+.signup input {
+    height: 20px;
+    width: 70%;
+    border: 2px solid grey;
+    float: left;
+    margin: 0 0 0 15px;
+    padding: 0 0 0 0;
+}
+.home ul li {
+    display: none;
+    margin: 0 0 0 55px;
+}
+.program {
+    float: left;
+    width: 100%;
+    height: 115px;
+    display: none;
+}
+.home {
+    float: left;
+    border-bottom: 2px solid grey;
+    width: 95%;
+    height: 45px;
+    text-align: center;
+    margin: 10px 0 0 12px;
+}
+
+}
