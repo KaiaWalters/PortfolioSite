@@ -4,7 +4,7 @@
     "version": "5.0.8",
     "scripts": {
         "start": "node_modules/.bin/gulp watch",
-        "build": "CI= npm run build"
+        "build": "node_modules/.bin/gulp build"
 
     },
     "description": "A grayscale one page HTML theme for Bootstrap.",
