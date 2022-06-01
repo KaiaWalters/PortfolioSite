@@ -11,13 +11,7 @@
   background-attachment: scroll;
   background-size: cover;
 }
-.about-section {
-    padding-top: 10rem;
-    background: -webkit-gradient(linear,left top,left bottom,from(#161616),color-stop(75%,rgba(22,22,22,.9)),to(rgba(22,22,22,.8))), url("/img/output-onlinepngtools.png");
-    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%),url("/img/output-onlinepngtools.png");
-    background-repeat: no-repeat;
-    padding-top: 200px;
-}
+
 .signup-section {
     padding: 10rem 0;
     background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url("/img/firs-fog-foggy-5049.jpg");
@@ -45,9 +39,7 @@
     height: auto;
     border: 1px solid #e7e8e1;
 }
-.about-section p {
-    margin-bottom: 7rem;
-}
+
 
 .projects-section {
     padding: 5rem 0;
@@ -67,4 +59,8 @@
     height: 300px;
     width: 100%;
     /* margin: 0 0 0 0; */
+}
+
+.purple-background {
+  background-color:#52168A;
 }
