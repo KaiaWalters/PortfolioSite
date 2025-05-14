@@ -1,4 +1,4 @@
- $(document).ready(function() {
+$(document).ready(function() {
     // Initialize the carousel with custom settings
     $('#projectsCarousel').carousel({
       interval: 5000,  // Change slides every 5 seconds
