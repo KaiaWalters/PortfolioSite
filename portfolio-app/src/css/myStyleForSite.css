@@ -1,0 +1,97 @@
+
+.signup-section {
+    padding: 10rem 0;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url("/img/firs-fog-foggy-5049.jpg");
+    background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url("/img/firs-fog-foggy-5049.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.text-ruck {
+    color: rgba(255,255,255,1.15)!important;
+}
+
+
+.jWLIScroll{
+  overflow-y: scroll;
+  overflow: auto;
+  height: 300px;
+  width: 100%;
+  border:1px solid #e7e8e1;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e7e8e1;
+}
+
+
+.projects-section {
+    padding: 5rem 0;
+}
+
+#mainNav .navbar-brand {
+    color: black;
+    font-weight: 200;
+    padding: .9rem 0;
+}
+.col-lg-7 a{
+  font-size: .75rem;
+}
+ .col-lg-6 img {
+    vertical-align: middle;
+    border-style: none;
+    height: 300px;
+    width: 100%;
+    /* margin: 0 0 0 0; */
+}
+
+.purple-background {
+  background-color:#52168A;
+}
+
+
+/* masthead halo */
+
+.halo{
+  z-index:10;
+  position: absolute;
+  bottom: 30%;
+  right: 50%;
+  width: 300px;
+  height: 400px;
+  margin-top: 75px;
+  margin-left: 75px;
+  animation: rotate 100s linear infinite;
+}
+
+
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: gold;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 -60px; /* 60px is half the .halo width */
+  animation: spinDot 10s linear infinite;
+}
+
+/* Optional: Glowing dots */
+.dot::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: gold;
+  box-shadow: 0 0 10px gold;
+}
+
+@keyframes rotate {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to   { transform: translate(-50%, -50%) rotate(360deg); }
+}
